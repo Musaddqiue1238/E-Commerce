@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image/logo.jpg" type="image/icon type"/>
+    <header>    
+        <h1>SmartCart</h1>
+    </header>
+</head>
+<body>    
+    <nav>
+        <input type="text" id="search-bar" placeholder="Search for products..." onkeyup="searchProducts()">
+        
+    </form>
+    <div class="icon">
+    <div class="icons" onclick="redirectToLogin()">
+        <img src="/image/user.svg" alt="Login" class="icon-img">
+    </div>
+    <div class="icons" onclick="redirectToCart()">
+        <img src="/image/shop.svg" alt="Cart" class="icon-img">
+    </div>
+</div>
+    </nav>
+    <main>  
+    
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+            <img src="/image/asl.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="/image/btb.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="/image/swb.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+            <img src="/image/s24.jpg" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            </div>
+            
+        <h2>Trending Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/s.jpg" alt="Smartphone">
+                <h3>Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)</h3>
+                <p>₹127,999</p>
+                <a  class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <br>
+                <img src="image/mac.png" alt="Laptop"><br><br>
+                <h3>Apple 2023 MacBook Pro (16-inch, Apple M3 Max chip with 16‑core CPU and 40‑core GPU, 48GB Unified Memory, 1TB) - Space Black
+                </h3>
+                <p>₹3,69,900</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/jbl9.png.jpg" alt="Wireless Earbuds">
+                <h3>JBL Wave Beam 2 Ear Buds TWS Bluetooth v5.3 Earbuds with ANC,Speed Charge,40H Playtime,IP54 (Black)</h3>
+                <p>₹4,299</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/swatch.jpg" alt="Smartwatch">
+                <h3>Samsung Galaxy Watch5 LTE (44 mm, Sapphire, Compatible with Android only)</h3>
+                <p>₹21,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <h2>Mobile Phones</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/a copy.jpg" alt="Smartphone">
+                <h3>Redmi A3X Smartphone 4G(4gb Ram,128gb Rom) LED display circle camra AI also</h3>
+                <p>₹6,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/b.jpg" alt="Laptop">
+                <h3>Samsung Galaxy S23 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)</h3>
+                <p>₹108,990</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <br>
+                <img src="image/c.jpg" alt="Wireless Earbuds">
+                <br>
+                <br>
+                <h3>Oneplus NordCE2 5G(8gb Ram,128gb Rom)</h3>
+                <p>₹23,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/e.jpg" alt="Smartwatch">
+                <h3>Realme 13pro+ 5G (12GB, 256GB Storage)</h3>
+                <p>₹32,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/f.jpg" alt="Smartphone">
+                <h3> vivo v40 5G Smartphone (12GB, 256GB Storage)</h3>
+                <p>₹39,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/q.jpg" alt="Laptop">
+                <h3>Samsung fold 4  5G (12GB, 256GB Storage)</h3>
+                <p>₹89,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/h.jpg" alt="Wireless Earbuds">
+                <h3>oppo A3X 5G (8GB, 128gb Storage)</h3>
+                <p>₹12,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/j.jpg" alt="Smartwatch">
+                <h3> vivo v40 5G Smartphone (8GB, 128GB Storage)</h3>
+                <p>₹35,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/k.jpg" alt="Smartphone">
+                <h3>oppo A3X 5G Smartphone (12GB, 256GB Storage)</h3>
+                <p>₹16,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/l.jpg" alt="Laptop">
+                <h3>oppo A3X 5G Smartphone (4GB,64GB Storage)</h3>
+                <p>₹9,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/r.jpg" alt="Wireless Earbuds">
+                <h3>xiaomi 14 5G Smartphone (12GB, 256GB Storage)</h3>
+                <p>₹22,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/n.jpg" alt="Smartwatch">
+                <h3>Readmi A3X 4G Smartphone (12GB, 256GB Storage)</h3>
+                <p>₹12,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/o.jpg" alt="Smartphone">
+                <h3>Oneplus Nord CE2 5G Smartphone(12GB,256GB Storage)</h3>
+                <p>₹27,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/p.jpg" alt="Laptop">
+                <h3>Realme 13pro+ 5G Smartphone(8GB,128GB Storage)</h3>
+                <p>₹29,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/q.jpg" alt="Wireless Earbuds">
+                <h3>Samsung Fold 4 5G Smartphone(8GB, 128GB Storage)</h3>
+                <p>₹64,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/r.jpg" alt="Smartwatch">
+                <h3>Xiaomi 14 5G Smartphone (8GB, 128GB Storage)</h3>
+                <p>₹18,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/t.jpg" alt="Smartphone">
+                <h3>Readmi A3X 4G Smartphone (8GB, 128GB Storage)</h3>
+                <p>₹10,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/ap.png.jpg" alt="Laptop">
+                <h3>iphone 15promax all types and 5G AI Smartphone (Titanium, 12GB, 256GB Storage)</h3>
+                <p>₹149,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/ap1.png.jpg" alt="Wireless Earbuds">
+                <h3>iphone 16promax all types and 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)</h3>
+                <p>₹198,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/s.jpg" alt="Smartwatch">
+                <h3>Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 256GB Storage)</h3>
+                <p>₹205,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <h2>Laptop</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/lap.png" alt="Smartphone">
+                <h3>Acer Aspire 3 Spin 14 Intel Core i3-N305 Processor Laptop 
+                    (Windows 11 Home/ 8 GB RAM/ 512 GB SSD/Intel UHD Graphics)
+                    A3SP14-31PT, 35.56 cm (14")</h3>
+                <p>₹61,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <br>
+                <img src="image/lap2.png" alt="Laptop">
+                <br>
+                <br>
+                <br>
+                <h3>Lenovo IdeaPad Slim 1 Intel Core Celeron N4020 14" HD Thin and Light Laptop (Windows 11 Home/ 16 GB RAM/ 512 GB SSD/Intel UHD Graphics)</h3>
+                <p>₹23,950</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <br>
+                <br>
+                <img src="image/lap5.png" alt="Laptop">
+                <br><br>
+                <br>
+                <br>
+                <h3>Hp Victus 15 Amd Ryzen 5 Hexa Core 5600h - 16 Gb/512 Gb Ssd/Windows 11 Home/4 Gb Graphics/Nvidia Geforce Rtx 3050 15-fb0106ax</h3>
+                <p>₹64,490</p>
+            
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap6.png" alt="">
+                <h3>Acer Aspire 3 Laptop (8 GB LPDDR4X SDRAM/256 GB SSD/Win11 Home/38 WHR/HD Webcam) 39.63 cm (15.6") HD Display, Pure Silver</h3>
+            <p>₹22,992</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <br>
+                <br>
+                <img src="image/lap7.png" alt="Smartwatch">
+                <br>
+                <br>
+                <h3>Asus Vivobook Go 14 Laptop (AMD Ryzen 5 7520U/8GB/512 GB SSD/Windows 11 Home/MSO/FHD), 33.02 cm (14.0 inch)</h3>
+                <p>₹37,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap8.png" alt="Laptop">
+                <h3>Acer ALG 12th Gen Intel Core i5 Gaming Laptop (16GB RAM/512GB SSD/4GB RTX 2050 Graphics/60Hz/Win11Home/Wifi 6)FHD</h3>
+                <p>₹32,990</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap9.png" alt="Wireless Earbuds">
+                <h3>Lenovo IdeaPad 1 AMD Ryzen 5 5500U 15.6" HD Thin and Light Laptop (16GB/512GB SSD/Windows 11 Home/MS Office 2021/Cloud Grey/1.61Kg), 82R400ERIN</h3>
+                <p>₹40,990</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <br>
+                <img src="image/lap10.png" alt="Smartwatch">
+                <br>
+                <h3>SAMSUNG Galaxy Book4 Metal Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-LG4IN Thin and Light Laptop  (15.6 Inch, Gray, 1.55 Kg, With MS Office)</h3>
+                <p>₹37,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/lap11.png" alt="Smartphone">
+                <h3>ASUS Vivobook Go 15 OLED E1504FA-LK542WS (12GB, 256GB Storage) (RTX 2050 Graphics/60Hz/Win11Home/Wifi 6)FHD sRGB/Grey/2.4Kg)
+                </h3>
+                <p>₹42,950</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap12.png" alt="Laptop">
+                <h3>Lenovo LOQ Intel Core i5-13450HX 15.6" (39.6cm) 144Hz 300Nits FHD Gaming Laptop(16GB/512GB SSD/Win 11/NVIDIA RTX 3050 6GB Graphics/100% sRGB/Grey/2.4Kg)</h3>
+                <p>₹59,458</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap4.png" alt="Smartwatch">
+                <h3>Lenovo IdeaPad Slim 1 Laptop (Windows 11 Home/ 16 GB RAM/ 512 GB SSD/Intel UHD Graphics)</h3>
+                <p>₹39,990</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap14.png" alt="Smartwatch">
+                <h3>Acer Recertified Nitro 5 Gaming Laptop 11th Gen Intel Core i5-11400H Processor (8GB/512GB SSD/VIDIA® GeForce® GTX 1650/Windows 11 Home/144Hz), AN515-57 With 39.6 Cm (15.6 Inches) IPS Display / 2.2 Kgs</h3>
+                <p>₹40,459</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/lap15.png" alt="Smartphone">
+                <h3>ASUS VivoBook 15 (2021) Thin and Light Laptop, 15.6-inch (39.62 cm) HD, (4GB RAM/256GB SSD/Integrated Graphics/Windows)  
+                <p>₹42,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap1.png" alt="Smartphone">
+                <h3>ASUS TUF Gaming A15 Gaming Laptop Amd Ryzen 7 7435hs(12GB, 256GB Storage)</h3>
+                <p>₹52,990</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap17.png" alt="Wireless Earbuds">
+                <h3>MSI Thin 15, Intel 13th Gen. Core i5-13620H, 40CM FHD 144Hz Gaming Laptop(16GB/512GB NVMe SSD/Windows 11 Home/NVIDIA GeForce RTX 3050,GDDR6 4GB</h3>
+                <p>₹57,490</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/lap18.png" alt="Smartwatch">
+                <h3>Samsung Galaxy Book4 Series Laptop| U7 Processor |Windows 11 Home| Intel Arc Zeb-nbc 2s Thin And Light Laptop</h3>
+                <p>₹79,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div><br>
+        <h2>Smart Watch</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/pcs.png" alt="Smartphone">
+                <h3>Samsung Smartwatch (4GB,32B Storage)</h3>
+                <p>₹4,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/sw1.png.jpg" alt="Laptop">
+                <h3>firebolt Smartwatch (4GB,32B Storage)</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/sw7.png.jpg" alt="Laptop">
+                <h3> Apple Smartwatch (4GB,32B Storage)</h3>
+                <p>₹32,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/pic3.png" alt="Smartwatch">
+                <h3>firebolt Smartwatch (4GB,32B Storage)</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/pic4.png" alt="Smartphone">
+                <h3>Realme Smartwatch (4GB,32B Storage)</h3>
+                <p>₹4,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/sw2.png.jpg" alt="Laptop">
+                <h3>FireBolt Smartwatch (4GB,32B Storage)</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/ap4.png.jpg" alt="Wireless Earbuds">
+                <h3>Apple Smartwatch (4GB,64B Storage)</h3>
+                <p>₹56,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/swatch.jpg" alt="Smartphone">
+                <h3>Samsung Smartwatch (4GB,32B Storage)</h3>
+                <p>₹22,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <h2>Stylish Headsets</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/jbl1.png.jpg" alt="Smartwatch">
+                <h3>JBL Headphone Wireless gaming pro sound</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/jbl8.png.jpg" alt="Smartphone">
+                <h3>Boat Headphone Wireless gaming pro dual battery</h3>
+                <p>₹2,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/jbl4.png.jpg" alt="Wireless Earbuds">
+                <h3>JBL Headphone Wired gaming pro sound</h3>
+                <p>₹9,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/jbl7.png.jpg" alt="Smartwatch">
+                <h3>JBL Headphone Wireless gaming pro sound and movies</h3>
+                <p>₹4,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/sw6.png.jpg" alt="Wireless Earbuds">
+                <h3>JBL airpods with LED display 24 hours charging dual battery fast charging </h3>
+                <p>₹2,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/jbl9.png.jpg" alt="Laptop">
+                <h3>JBL airpods with 24 hours charging dual battery fast charging</h3>
+                <p>₹4,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt1.png.jpg" alt="Wireless Earbuds">
+                <h3>Boult airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt2.png.jpg" alt="Smartwatch">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div><br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/bt3.png.jpg" alt="Smartphone">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹3,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt4.png.jpg" alt="Laptop">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt5.png.jpg" alt="Wireless Earbuds">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹2,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt6.png.jpg" alt="Smartwatch">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+        <br>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/bt7.png.jpg" alt="Smartphone">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹2,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt8.png.jpg" alt="Laptop">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹2,499</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt9.png.jpg" alt="Wireless Earbuds">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,299</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product-card">
+                <img src="image/bt10.png.jpg" alt="Smartwatch">
+                <h3>Boat airpods Wireless gaming pro dual battery fast charging</h3>
+                <p>₹1,999</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>                                                                                                                                                                               
+    </main>
+        <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">SmartCart Stories</a>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>GROUP COMPANIES</h3>
+                <ul>
+                    <li><a href="https://skill-builder.netlify.app/" target="_blank">Skill Builder</a></li>
+                    <li><a href="#">Vita Source</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>HELP</h3>
+                <ul>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONSUMER POLICY</h3>
+                <ul>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-section">
+            <p>Social Media:</p>
+            <div class="social-icons">
+                <div class="footer">
+                    <div class="social-icons">
+                        <img src="/image/face.svg" alt="Facebook"/>
+                        <img src="/image/x-twitter.svg" alt="Twitter"/>
+                        <img src="/image/you.svg" alt="YouTube"/>
+                        <div onclick="openInstagram()">
+                            <img src="image/inst.svg" alt="Instagram" class="social-icons ">
+                        </div>
+                        <div onclick="openWhatsApp()">
+                            <img src="image/whats.svg" alt="WhatsApp" class="social-icons ">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p><strong> © 2025 SmartCart. All rights reserved.</strong></p>
+            <div class="language-selector">🌐 India / English</div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="auth.js"></script>
+    <script src="search.js"></script>
+    <script src="slide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

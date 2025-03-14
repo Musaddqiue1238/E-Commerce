@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image/logo.jpg" type="image/icon type"/>
+</head>
+<body>
+    <h2>Shopping Cart</h2>
+    <div id="cart-items">
+        <div class="product-card">
+            <img src="image/ap15p.jpg" alt="iPhone 15 Pro Max">
+            <h3>iPhone 15 Pro Max</h3>
+            <p>₹1,28,900</p>
+        </div>
+        <div class="product-card">
+            <img src="image/mac.png" alt="Apple MacBook Pro M2">
+            <h3>Apple MacBook Pro M2</h3>
+            <p>₹249,900</p>
+        </div>
+        <div class="product-card">
+            <img src="image/jbl9.png.jpg" alt="JBL Wave Beam 2 Ear Buds">
+            <h3>JBL Wave Beam 2 Ear Buds</h3>
+            <p>₹4,299</p>
+        </div>
+        <div class="product-card">
+            <img src="image/ap4.png.jpg" alt="Apple Watch Ultra 2">
+            <h3>Apple Watch Ultra 2</h3>
+            <p>₹89,900</p>
+        </div>
+    </div>
+    <p id="total-price">Total Amount: ₹472,999</p>
+    <button onclick="showOrderMessage()">Confirm Order</button>
+    <br><br>
+    <a href="index.html">Back to Shopping</a>
+
+    <script>
+        function showOrderMessage() {
+            alert("Your order has been placed successfully!");
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
