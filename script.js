@@ -43,4 +43,3 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 function closePopup() {
     document.getElementById("popup-message").style.display = "none";
 }
-
